@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Cooking Converter</title>
   </head>
   <body>
-    <h1>Cooking Converter</h1>
-    <script src="js/scripts.js"></script>
+    <div class="container">
+      <h1>Cooking Converter</h1>
+      <div class="row">
+
+        <div class="col-md-3">
+          <form id="g-to-l">
+            <div class="form-group">
+              <h4>Gallon to Liter Conversion</h4>
+              <label for="gallon">Type in # of Gallons</label>
+              <input id="gallon" class="form-control" type="text">
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-3">
+          <form id="l-to-g">
+            <div class="form-group">
+              <h4>Liter to Gallon Conversion</h4>
+              <label for="liter">Type in # of Liters</label>
+              <input id="liter" class="form-control" type="text">
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-3">
+          <form id="p-to-b">
+            <div class="form-group">
+              <h4>Peck to Bushel Conversion</h4>
+              <label for="peck">Type in # of Pecks</label>
+              <input id="peck" class="form-control" type="text">
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-3">
+          <form id="b-to-p">
+            <div class="form-group">
+              <h4>Bushel to Peck Conversion</h4>
+              <label for="bushel">Type in # of Bushels</label>
+              <input id="bushel" class="form-control" type="text">
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
   </body>
 </html>

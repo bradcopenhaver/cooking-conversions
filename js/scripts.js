@@ -14,5 +14,8 @@ var bushelToPeck = function(bushels) {
   return bushels * 4;
 };
 
-var input = prompt("how many units do you have?");
-alert("Here you go... Gallons to liters: " + gallonToLiter(input) + " Liters to gallons: " + literToGallon (input) + " Pecks to bushels: " + peckToBushel (input) + " Bushels to pecks: " + bushelToPeck (input));
+//Interface logic
+
+$(document).ready(function() {
+  $
+});
